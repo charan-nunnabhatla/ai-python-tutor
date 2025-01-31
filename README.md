@@ -38,7 +38,7 @@ npm install
 Create a `.env.local` file and add your AI API key:
 
 ```env
-NEXT_PUBLIC_OPENAI_API_KEY=your-api-key-here
+OPENAI_API_KEY=your-api-key-here
 ```
 
 ### **4. Run the Development Server**
