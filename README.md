@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI-Powered Python Tutor for Kids
 
-## Getting Started
+An interactive web application designed to help children learn Python in a fun and engaging way. Powered by AI, the tutor provides guided lessons, interactive coding exercises, and real-time feedback.
 
-First, run the development server:
+## Features
+
+✅ **AI-Powered Tutor** – Provides explanations and feedback tailored for kids.\
+✅ **Interactive Coding Exercises** – Hands-on practice with real Python code.\
+✅ **Child-Friendly UI** – Simple, engaging, and easy to navigate.\
+✅ **Customizable Tutor** – Personalize the AI tutor based on the child’s interests.\
+✅ **Gamification Elements** – Badges and rewards for progress tracking.\
+✅ **API Key Configuration** – Easily switch AI providers or use a self-hosted model.
+
+## Tech Stack
+
+- **Frontend:** Next.js, Tailwind CSS
+- **AI Integration:** OpenAI API&#x20;
+- **Hosting:** Vercel
+
+## Installation & Setup
+
+### **1. Clone the Repository**
+
+```bash
+git clone https://github.com/charan-nunnabhatla/ai-python-tutor.git
+cd ai-python-tutor
+```
+
+### **2. Install Dependencies**
+
+```bash
+npm install
+```
+
+### **3. Set Up Environment Variables**
+
+Create a `.env.local` file and add your AI API key:
+
+```env
+NEXT_PUBLIC_OPENAI_API_KEY=your-api-key-here
+```
+
+### **4. Run the Development Server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
