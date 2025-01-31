@@ -1,3 +1,4 @@
+Under development. Feel free to discuss any ideas in **Discussions**
 # AI-Powered Python Tutor for Kids
 
 An interactive web application designed to help children learn Python in a fun and engaging way. Powered by AI, the tutor provides guided lessons, interactive coding exercises, and real-time feedback.
